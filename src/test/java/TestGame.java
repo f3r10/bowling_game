@@ -14,6 +14,6 @@ public class TestGame{
 		for (int i = 0; i<20; i++){
 			game.roll(0);
 		}
-		assertThat(0, is(game.score()));
+		assertThat(1, is(game.score()));
 	}
 }
